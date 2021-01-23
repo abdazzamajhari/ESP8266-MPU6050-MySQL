@@ -1,0 +1,2 @@
+# ESP8266-MPU6050-MySQL
+Store MPU6050 data to MySQL
