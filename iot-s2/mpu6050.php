@@ -22,8 +22,10 @@ $gx = $_GET["gx"];
 $gy = $_GET["gy"]; 
 $gz = $_GET["gz"]; 
 
+$temp = $_GET["temp"]; 
 
-$query = "INSERT INTO mpu6050 (ax, ay, az, gx, gy, gz) VALUES ('$ax', '$ay', '$az', '$gx', '$gy', '$gz')";
+
+$query = "INSERT INTO mpu6050 (ax, ay, az, gx, gy, gz, temp) VALUES ('$ax', '$ay', '$az', '$gx', '$gy', '$gz', '$temp')";
 $result = mysqli_query($connect,$query);
 
 echo "Insertion Success!";
